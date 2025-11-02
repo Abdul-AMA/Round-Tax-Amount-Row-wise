@@ -49,6 +49,7 @@ def set_override_doctype_class():
 	update_site_config("original_doctype_class", original_doctype_class)
 	return override_doctype_class
 
+
 def get_override_doctype_class_safe():
 	"""
 	Safe version that can be called during import time.
